@@ -1,0 +1,25 @@
+{
+  "dependencies": {},
+  "parameters": {
+    "dotnetservereapp.resourceGroupLocation": {
+      "Name": "dotnetservereapp.resourceGroupLocation",
+      "Type": null,
+      "Value": "eastus"
+    },
+    "dotnetservereapp.resourceName": {
+      "Name": "dotnetservereapp.resourceName",
+      "Type": null,
+      "Value": "dotnetservereapp"
+    },
+    "dotnetservereapp.subscriptionId": {
+      "Name": "dotnetservereapp.subscriptionId",
+      "Type": "subscription",
+      "Value": "15955666-9579-4f53-850b-b11cd1929a16"
+    },
+    "dotnetservereapp.resourceGroupName": {
+      "Name": "dotnetservereapp.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "stark-content-creation"
+    }
+  }
+}

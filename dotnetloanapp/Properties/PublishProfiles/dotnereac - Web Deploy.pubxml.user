@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4po8RfBJ20SG9a2dYFNa+QAAAAACAAAAAAAQZgAAAAEAACAAAABfXHExFSgqWC4w07xABzeJYKy/AQiBWgz5vlF+9RDOAAAAAAAOgAAAAAIAACAAAABLHfCbCmFed7KqPGP5S7497BCGoW7JOB94b8B1mlFnLIAAAAB2caPUZwOxRWIFpZRFerpSVuPyRLNYr3/3HoCke3Ix6XK5xkOD/4KWHZ5Mrq2Hn/wrsYc8/q6EzfyPMHg1YM4ZjcBr+Sz7I+k7jvQajKaZNeGm3bG5b2ALNXOkNRLHsunfusrFgXhysIktED+Jfmpifhd3CP/sx0QIG1fSMnBdaEAAAABtbIWF2peNNmswPTswGr+hDIhYupYZIYp8Z5H48W75ltR0EDsNTTROk2pAEH79Zqe0Dotd434iD1v0AfHV5kK/</EncryptedPassword>
+    <History>True|2023-11-24T07:17:33.1474130Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MyConnString">
+      <Value>Server=tcp:loanapp.database.windows.net,1433%3bInitial Catalog=loandb%3bPersist Security Info=False%3bUser ID=myadmin%3bPassword=Passw0rd%40123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BookStoreDBFirst.Models.LoanApplicationDbContext">
+      <Value>Server=tcp:loanapp.database.windows.net,1433%3bInitial Catalog=loandb%3bPersist Security Info=False%3bUser ID=myadmin%3bPassword=Passw0rd%40123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

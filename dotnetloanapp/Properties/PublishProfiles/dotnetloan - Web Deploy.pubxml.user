@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4po8RfBJ20SG9a2dYFNa+QAAAAACAAAAAAAQZgAAAAEAACAAAAB1ROsA8ZFyLkiBkh2xq3MdbygZRek752o64onAWbWEigAAAAAOgAAAAAIAACAAAAAlhPWxlbZlwVdSQaBrnR36Sk1WzJwjGrnoPWKid02CJ4AAAAC6m58kn9S+wpM4fmQjPwLVa129smGbgBMpzwPGANGJzAvNPyF+ICM7KMUMump2cGDVHrB/l4LTq9WZCNQQ4R/3sX9j7tmI2loRw1Wd5yZwjxYTTwTKvHsqzyIFU2gyHsYHoa7NXsCDk0mZlw7l0vnCxuK65j6/+Ol9FW8SLB4N1kAAAABECBkJIIjGy1rZ9+kTf7fdISAQN2z+JkV3aN7Px2KtgvlI+8OcZX3PtA1IIoDpEE8zuxeq9GhKNj/z8vlshXF5</EncryptedPassword>
+    <History>True|2023-11-27T08:26:04.8908610Z;True|2023-11-27T13:29:56.2161492+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MyConnString">
+      <Value>Server=tcp:stark-content-creation-pserver.database.windows.net,1433%3bInitial Catalog=loandb%3bPersist Security Info=False%3bUser ID=Kiruthika%3bPassword=Welcome%40123#%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BookStoreDBFirst.Models.LoanApplicationDbContext">
+      <Value>Server=tcp:stark-content-creation-pserver.database.windows.net,1433%3bInitial Catalog=loandb%3bPersist Security Info=False%3bUser ID=Kiruthika%3bPassword=Welcome%40123#%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

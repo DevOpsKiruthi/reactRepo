@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnsk3O4W9Mk+gnytXTnAHoAAAAAACAAAAAAAQZgAAAAEAACAAAACpgzbnzgOgUNBpRoc2H4LRJjxrY2qOptNMIE+oyUWUwAAAAAAOgAAAAAIAACAAAAC9jCzziPnHjPwM1xq1AN1i7da7C7omk6835JJ+mNTYJoAAAACcw1R2+3U39mOwai9OVPGTf83foyhPjFEfGHk5PQrGhQWCNJVk4VCM+vVmfgWOy5/JrY7vtWXJ9BofOr+OlDKq9pNjX1eqmU3vYPJ7M6gDO7oawwtcy3aUWWZ4+PzYgBJWkaTfid02HVCb9wh6oF3r2ugmPwLFKtT/ivikqZw3l0AAAAAEbohtMTHzAJ8qV9uS7NGOmz1Xw/5BijkfolHSp/sVF7SKvRYjaSfRZ2werJjklRXiVZE0VXTq74FRsyEFrqmD</EncryptedPassword>
+    <History>True|2023-12-01T08:38:35.3367064Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MyConnString">
+      <Value>Server=tcp:stark-content-creation.database.windows.net,1433%3bInitial Catalog=MedicalRecords%3bPersist Security Info=False%3bUser ID=Kiruthika%3bPassword=kir%4012345678%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
